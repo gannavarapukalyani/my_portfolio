@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+font-family: 'Roboto', sans-serif;
+}
+.navText{
+   color: beige;
+}
+.nav-item:hover{
+    
+    background-color: rgb(233, 228, 229);
+}
+
+
+.bannerBgImage{
+    height: 100vh;
+    background: url("../images/pic.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText{
+    text-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(245, 245, 245, 0.808);
+}
+.bannerTitle{
+    font-size: 4rem;
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+.card{
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: rgb(197, 236, 252) ;
+    border: 2px solid yellowgreen
+}
+.bIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.img-fluid{
+    border: 3px solid rgb(153, 51, 78)
+}
